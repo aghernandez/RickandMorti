@@ -26,6 +26,7 @@ export class CharacterListComponent implements OnInit {
   constructor(private characterSvc: CharacterService) { }
 
   ngOnInit(): void {
+    this.getDataFromService();
   }
 
   private getDataFromService ():void{
